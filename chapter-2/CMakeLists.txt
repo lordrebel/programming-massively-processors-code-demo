@@ -1,0 +1,1 @@
+add_executable(chapter-2 kernel_add.cu)

@@ -1,0 +1,1 @@
+add_executable(image-gray image-gray.cu)

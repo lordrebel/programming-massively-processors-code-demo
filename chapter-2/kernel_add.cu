@@ -13,16 +13,16 @@ __global__ void vectorAddKernel(float *A, float *B, float *C, int N){
 void vectorAdd(float *A, float *B, float *C, int N){
     float *d_A,*d_B,*d_C;
     size_t size=N*sizeof(float);
-    cudaMalloc((void**)&d_A,size);
-    cudaMalloc((void**)&d_B,size);
-    cudaMalloc((void**)&d_C,size);  
-    cudaMemcpy(d_A,A,size,cudaMemcpyHostToDevice);
-    cudaMemcpy(d_B,B,size,cudaMemcpyHostToDevice);
+    checkCudaErrors(cudaMalloc((void**)&d_A,size));
+    checkCudaErrors(cudaMalloc((void**)&d_B,size));
+    checkCudaErrors(cudaMalloc((void**)&d_C,size));  
+    checkCudaErrors(cudaMemcpy(d_A,A,size,cudaMemcpyHostToDevice));
+    checkCudaErrors(cudaMemcpy(d_B,B,size,cudaMemcpyHostToDevice));
     vectorAddKernel<<<ceil(N/256.0),256>>>(d_A,d_B,d_C,N);
-    cudaMemcpy(C,d_C,size,cudaMemcpyDeviceToHost);
-    cudaFree(d_A);
-    cudaFree(d_B);
-    cudaFree(d_C);
+    checkCudaErrors(cudaMemcpy(C,d_C,size,cudaMemcpyDeviceToHost));
+    checkCudaErrors(cudaFree(d_A));
+    checkCudaErrors(cudaFree(d_B));
+    checkCudaErrors(cudaFree(d_C));
   
 }
 int main(){

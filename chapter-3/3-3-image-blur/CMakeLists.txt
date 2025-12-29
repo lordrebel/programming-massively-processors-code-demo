@@ -1,0 +1,1 @@
+add_executable(image-blur image-blur.cu)

@@ -1,0 +1,1 @@
+add_executable(matmul_coarse matmul_coarse.cu)

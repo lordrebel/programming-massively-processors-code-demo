@@ -1,0 +1,1 @@
+add_executable(basic_conv basic_conv.cu)

@@ -1,0 +1,1 @@
+add_executable(conv_constant conv_constant.cu)

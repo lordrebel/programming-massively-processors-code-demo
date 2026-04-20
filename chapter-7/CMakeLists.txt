@@ -1,2 +1,3 @@
 add_subdirectory(basic_conv)
 add_subdirectory(conv_with_constant_memory)
+add_subdirectory(tiled_conv)

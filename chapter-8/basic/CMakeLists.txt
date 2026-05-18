@@ -1,0 +1,1 @@
+add_executable(basic_stencil basic_stencil.cu)

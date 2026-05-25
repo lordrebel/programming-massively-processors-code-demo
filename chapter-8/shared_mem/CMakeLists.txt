@@ -1,0 +1,1 @@
+add_executable(shared_mem_stencil shared_mem_stencil.cu)

@@ -1,2 +1,3 @@
 add_subdirectory(basic)
 add_subdirectory(shared_mem)
+add_subdirectory(thread_coarsen)

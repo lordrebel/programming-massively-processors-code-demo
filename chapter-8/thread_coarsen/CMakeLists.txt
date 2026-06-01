@@ -1,0 +1,1 @@
+add_executable(stencil_thread_coarsen stencil_thread_coarsen.cu)

@@ -1,0 +1,1 @@
+add_executable(stencil_regist_tiling stencil_regist_tiling.cu)

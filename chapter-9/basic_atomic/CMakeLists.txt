@@ -1,0 +1,1 @@
+add_executable(basic_hist basic_hist.cu)

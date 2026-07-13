@@ -1,0 +1,1 @@
+add_executable(histo_private histo_private.cu)

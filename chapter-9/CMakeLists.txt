@@ -1,1 +1,3 @@
 add_subdirectory(basic_atomic)
+add_subdirectory(histo_private)
+add_subdirectory(histo_shared)

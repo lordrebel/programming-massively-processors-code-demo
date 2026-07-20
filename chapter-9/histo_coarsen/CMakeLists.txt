@@ -1,0 +1,1 @@
+add_executable(histo_coarsen histo_coarsen.cu)

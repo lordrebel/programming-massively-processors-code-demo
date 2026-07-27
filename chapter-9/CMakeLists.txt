@@ -1,4 +1,5 @@
 add_subdirectory(basic_atomic)
 add_subdirectory(histo_private)
+add_subdirectory(histo_private_interleaved)
 add_subdirectory(histo_shared)
 add_subdirectory(histo_coarsen)

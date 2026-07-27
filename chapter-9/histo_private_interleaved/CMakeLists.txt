@@ -1,0 +1,1 @@
+add_executable(histo_private_interleaved histo_private_interleaved.cu)

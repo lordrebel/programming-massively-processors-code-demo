@@ -1,0 +1,1 @@
+add_executable(histo_aggregate histo_aggregate.cu)

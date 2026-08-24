@@ -1,0 +1,1 @@
+add_executable(convergent_sum_reduce convergent_sum_reduce.cu)

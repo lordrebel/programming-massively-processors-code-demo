@@ -1,1 +1,2 @@
 add_subdirectory(simpleReduce)
+add_subdirectory(convergent_sum_reduce)

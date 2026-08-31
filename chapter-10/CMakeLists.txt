@@ -1,2 +1,4 @@
 add_subdirectory(simpleReduce)
 add_subdirectory(convergent_sum_reduce)
+add_subdirectory(sharedmem_reduce_sum)
+add_subdirectory(sharemem_atomic)

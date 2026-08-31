@@ -1,0 +1,1 @@
+add_executable(sharemem_atomic sharemem_atomic.cu)

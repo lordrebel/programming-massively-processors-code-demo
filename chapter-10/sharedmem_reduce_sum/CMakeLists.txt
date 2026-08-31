@@ -1,0 +1,1 @@
+add_executable(shared_mem_reduce_sum shared_mem_reduce_sum.cu)

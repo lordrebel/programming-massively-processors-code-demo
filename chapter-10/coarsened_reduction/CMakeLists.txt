@@ -1,0 +1,1 @@
+add_executable(coarsened_reduction coarsened_reduction.cu)

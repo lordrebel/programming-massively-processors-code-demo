@@ -1,0 +1,1 @@
+add_executable(kogge_stone_scan kogge_stone_scan.cu)

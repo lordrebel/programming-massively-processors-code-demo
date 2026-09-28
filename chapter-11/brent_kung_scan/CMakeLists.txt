@@ -1,0 +1,1 @@
+add_executable(brent_kung_scan brent_kung_scan.cu)

@@ -1,1 +1,2 @@
 add_subdirectory(kogge_stone_scan)
+add_subdirectory(brent_kung_scan)

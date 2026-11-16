@@ -1,1 +1,2 @@
 add_subdirectory(merge_basic)
+add_subdirectory(merge_tiled)
